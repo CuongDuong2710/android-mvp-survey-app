@@ -30,5 +30,10 @@ ext {
     compileSdkVersion = 26
     buildToolsVersion = "26.0.1"
 
+    // App dependencies
+    supportLibraryVersion = '25.3.1'
+
     rx2FastAndroidNetworking = '1.0.0'
+
+    butterKnifeVersion = '8.6.0'
 }
