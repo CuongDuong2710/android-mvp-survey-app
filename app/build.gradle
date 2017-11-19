@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -32,6 +33,9 @@ dependencies {
 
     // network
     compile "com.amitshekhar.android:rx2-android-networking:$rootProject.rx2FastAndroidNetworking"
+
+    // database
+    compile "org.greenrobot:greendao:$rootProject.greenDaoVersion"
 
     // code generate for view
     compile "com.jakewharton:butterknife:$rootProject.butterKnifeVersion"
